@@ -9,6 +9,6 @@ public class WelcomeController {
 
     @GetMapping("/hello")
     public String getHello(){
-        return "hello static new";
+        return "hello static new word";
     }
 }
